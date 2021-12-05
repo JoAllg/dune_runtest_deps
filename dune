@@ -1,5 +1,5 @@
 (library
  (name test)
- (inline_tests (deps (universe)))
+ (inline_tests (deps (universe))) ;or (deps glob_files ./sub/) 
  (preprocess (pps ppx_expect))
 )
